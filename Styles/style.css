@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    background: white;
+    flex-direction: column;
+    
+}
+p, h1,h2, h3, h4, a {
+    color: black;
+    
+}
+.menu-navegacion{
+    background: black;
+    height: 7em;
+}
+a{
+    text-decoration: none;
+}
+.menu-navegacion ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu-navegacion li{
+    margin-top: 33px;
+    font-size: 25px;
+}
+.menu-navegacion a{
+    font-family: 'Golos Text', sans-serif;
+    color: white;
+}
+.cita-text{
+    font-family: 'Golos Text', sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.title-contenido, .title-hash, .title-nuevas{
+    font-family: 'Golos Text', sans-serif;
+    font-size: 24px;
+}
+.container-dat{
+    display: flex;
+    flex-direction: row;
+   
+}
+.container-dat .container-titles{
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    margin-left: 200px;
+   
+    
+}
+.container-titles{
+    display: flex;
+    flex-direction: column;
+}
+.title-nuevas{
+    font-size: 30px;
+}
+.title-hash{
+    font-weight: bold;
+    font-size: 50px;
+}
+.video{
+    width: 30em;
+}
+
+.edufi ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+  }
